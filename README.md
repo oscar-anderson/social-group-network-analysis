@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project focuses on the analysis of a social network dataset to gain insights into the relationships and dynamics within the network. The dataset includes information about individuals (nodes) and their relationships (edges), along with details such as relationship types and strength.
+This project focuses on the analysis of a social network dataset to gain insights into the relationships and dynamics within my own personal social group. The dataset includes information about members of the group (nodes) and their relationships (edges), along with details such as relationship types and strength.
 
 ### Dataset
 
@@ -12,6 +12,8 @@ The dataset is stored in a CSV file named `social_circle2.csv` and contains the 
 - **target:** The person receiving or reciprocating the relationship.
 - **relationship_type:** The type of relationship (e.g., Family, Spouse, In-law, Acquaintance, Friend, Colleague, Stranger).
 - **relationship_strength:** A numerical value representing the strength of the relationship.
+
+I created this dataset myself, to reflect the members of and relationships within my own social circle.
 
 ### Script
 
