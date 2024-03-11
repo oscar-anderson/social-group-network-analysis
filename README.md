@@ -15,21 +15,21 @@ The dataset is stored in a CSV file named `social_circle2.csv` and contains the 
 
 ### Script
 
-The Python script `social_network_analysis.py` is responsible for loading the dataset, creating a directed graph using the NetworkX library, visualizing the social network, and conducting various analyses. The script is divided into three main functions:
+The Python script `social_network_analysis.py` is responsible for loading the dataset, creating a directed graph using the NetworkX library, visualising the social network, and conducting various analyses. The script is divided into three main functions:
 
 1. **create_graph:** Reads the dataset and creates a directed graph, incorporating nodes and edges with relationship type and strength attributes.
 
-2. **draw_graph:** Visualizes the social network using matplotlib, with customizable node positions, edge colours based on relationship type, and edge widths based on relationship strength.
+2. **draw_graph:** visualises the social network using matplotlib, with customizable node positions, edge colours based on relationship type, and edge widths based on relationship strength.
 
 3. **analyse_graph:** Provides insights into the social network's characteristics, including network density, degree centrality, in-degree centrality, and betweenness centrality.
 
 ### Results
 
-#### Network Visualization
+#### Network visualisation
 
-The social network visualization provides a clear representation of the relationships, distinguishing them by colour and width based on relationship type and strength, respectively.
+The social network visualisation provides a clear representation of the relationships, distinguishing them by colour and width based on relationship type and strength, respectively.
 
-![Social Network Visualization](/plot/social_network.png)
+![Social Network visualisation](/plot/social_network.png)
 
 #### Network Analysis
 
