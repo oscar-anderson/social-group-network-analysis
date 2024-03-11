@@ -41,7 +41,7 @@ def draw_graph(graph: nx.DiGraph, positions: Dict[str, Tuple[float, float]],
 
     for rel_type, color in edge_colors.items():
         edges = [(source, target) for source, target, data in graph.edges(data = True)
-                 if data['relationship_type']  =  =  rel_type]
+                 if data['relationship_type']  ==  rel_type]
         widths = [graph[source][target]['relationship_strength'] / 2 for source, target in edges]
         nx.draw_networkx_edges(graph, positions, edgelist = edges, edge_color = color, width = widths, edge_cmap = plt.cm.Blues)
 
