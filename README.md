@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project focuses on the analysis of a social network dataset to gain insights into the relationships and dynamics within my own personal social group. The dataset includes information about members of the group (nodes) and their relationships (edges), along with details such as relationship types and strength.
+This project constitutes a social network analysis, examining the relationships and dynamics within my own personal social group. The dataset includes information about members of the group (nodes) and their relationships (edges), along with details such as relationship types and strength.
 
 ### Dataset
 
