@@ -1,4 +1,4 @@
-# Network Analysis of my personal Social Group
+# Network Analysis of my Social Group
 
 ## Project Overview
 
