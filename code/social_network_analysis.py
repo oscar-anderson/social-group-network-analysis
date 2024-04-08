@@ -62,21 +62,14 @@ def analyse_graph(graph: nx.DiGraph) -> None:
     density = nx.density(graph)
     print(f"Network Density: {density}")
 
-    # Analyse individuals with high centrality (degree centrality)
+    # Analyse degree centrality
     degree_centrality = nx.degree_centrality(graph)
     sorted_degree_centrality = sorted(degree_centrality.items(), key = lambda x: x[1], reverse = True)
     print("\nTop 5 Nodes with Highest Degree Centrality:")
     for node, centrality in sorted_degree_centrality[:5]:
         print(f"{node}: {centrality}")
 
-    # Analyse individuals with low centrality (in-degree centrality)
-    in_degree_centrality = nx.in_degree_centrality(graph)
-    sorted_in_degree_centrality = sorted(in_degree_centrality.items(), key = lambda x: x[1])
-    print("\nTop 5 Nodes with Lowest In-Degree Centrality:")
-    for node, centrality in sorted_in_degree_centrality[:5]:
-        print(f"{node}: {centrality}")
-
-    # Identify bridge nodes (nodes with high betweenness centrality)
+    # Analyse betweenness centrality
     betweenness_centrality = nx.betweenness_centrality(graph)
     sorted_betweenness_centrality = sorted(betweenness_centrality.items(), key = lambda x: x[1], reverse = True)
     print("\nTop 5 Nodes with Highest Betweenness Centrality:")
